@@ -1,0 +1,4 @@
+pandas
+numpy
+seaborn
+-e . # it will connect requirements.txt to setup.py file
