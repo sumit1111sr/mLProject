@@ -1,5 +1,6 @@
 import os
 import sys
+# sys.path.insert(0, '../src')
 
 from src.exception import CustomException
 from src.logger import logging
