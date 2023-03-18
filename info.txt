@@ -1,0 +1,25 @@
+Concepts
+A. os - The OS module in Python provides functions for interacting with the operating system
+
+somecommands:
+1. os.getcwd() - get the location of the current working directory
+2.  os.chdir() - To change the current working directory(CWD)
+3. os.mkdir() - used to create a directory named path with the specified numeric mode,This method raises FileExistsError 
+if the directory to be created already exists
+syntax : 
+                import os 
+                
+                # Directory 
+                directory = "GeeksforGeeks"
+                
+                # Parent Directory path 
+                parent_dir = "D:/Pycharm projects/"
+                
+                # Path 
+                path = os.path.join(parent_dir, directory) 
+                
+                # Create the directory 
+                # 'GeeksForGeeks' in 
+                # '/home / User / Documents' 
+                os.mkdir(path) 
+
