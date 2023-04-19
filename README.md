@@ -1,2 +1,2 @@
 <!-- END TO END ML PROJECT -->
-This project i end to end ML project
+This project is end to end ML project
